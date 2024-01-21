@@ -8,3 +8,20 @@
 # assigning list1
 # assigning list2
 # calling def func
+
+# Function
+def checking(list):
+    if list[0] == list[-1]:
+        print(f"Given list: {list}")
+        print(f"The result is {True}.")
+    else:
+        print(f"Given list: {list}")
+        print(f"The result is {False}.")
+
+# Given
+numbers_x = [10, 20, 30, 40, 10]
+numbers_y = [75, 65, 35, 75, 30]
+
+# Calling functions
+checking(numbers_x)
+checking(numbers_y)
